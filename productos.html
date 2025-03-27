@@ -8,9 +8,17 @@
     <link rel="stylesheet" href="./css/stiles.css">
     <link rel="stylesheet" href="./css/navegacion.css">
     <script src="https://kit.fontawesome.com/ec225a767d.js" crossorigin="anonymous"></script>
-
     <title>Catalogo</title>
-
+    <style>
+        .cantidad {
+            width: 40px;
+            padding: 4px;
+            text-align: center;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,44 +26,11 @@
         <div class="css_grid">
 
             <div class="logo">
-                <h1>FC</h1>
-                <h2>Distribuciones</h2>
+                <h1>DISTRI-C</h1>
             </div>
-            <!-- <div class="boton-carrito">
-                <header class="header">
-                    <div class="container12">
-                        <div class="row">
-                            <div class="two columns13 u-pull-right">
-                                <ul>
-                                    <div class="carrito-boton">
-                                        <p class="texto-pedido">Pedido </p>
-                                        <li class="submenu">
-                                            <img src="../img/cart.png" alt="">
-                                            <div id="carrito">
-                                                <table id="lista-carrito" class="u-full-width">
-                                                    <thead>
-                                                        <tr>
-                                                            <th></th>
-                                                            <th>Producto</th>
-                                                            <th>Precio</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-
-                                                    </tbody>
-                                                </table>
-                                                <a href="#" id="vaciar-carrito" class="button u-full-width">vaciar carrito</a>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-            </div> -->
             <div class="container ">
-                <input onkeyup="search_animal()" type="text" name="search" id="searchbar" class="form-control" placeholder="Buscar">
+                <input onkeyup="search_animal()" type="text" name="search" id="searchbar" class="form-control"
+                    placeholder="Buscar">
                 <button class="btn btn-info " id="boton"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
 
@@ -64,12 +39,12 @@
     <section id="lista-platillos" class="img">
         <div id="item" class="row">
             <ol id="list" class="css_grid3 products-list items2">
-                <li class="animals">
-
+                <li class="animals agregar-carrito">
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Aceite Gulf 20w50.png" alt="Aceite_STIHL_GL">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Aceite Gulf 20w50.png"
+                                    alt="Aceite_STIHL_GL">
                                 <div class="info_card">
                                     <p>
                                         <h4>Aceite Gulf 20W50 LT</h4>
@@ -88,18 +63,19 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </li>
                 <li class="animals">
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/aceite gulf 10w30 lt.png" alt="Aceite_STIHL_GL">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/aceite gulf 10w30 lt.png" alt="Aceite_STIHL_GL">
                                 <div class="info_card">
                                     <p>
                                         <h4>Aceite Gulf 10W30 LT</h4>
@@ -118,7 +94,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +105,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/aceite gulf 2 Tiempos lt.png" alt="Aceite_STIHL_GL">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/aceite gulf 2 Tiempos lt.png" alt="Aceite_STIHL_GL">
                                 <div class="info_card">
                                     <p>
                                         <h4>Aceite 2 Tiempos LT</h4>
@@ -147,7 +125,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +136,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/aceite gulf Max 40 lt.png" alt="Aceite_STIHL_GL">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/aceite gulf Max 40 lt.png" alt="Aceite_STIHL_GL">
                                 <div class="info_card">
                                     <p>
                                         <h4>Aceite Gulf Max40 LT</h4>
@@ -176,7 +156,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -186,7 +167,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/aceite gulf Gear EP 90 lt.png" alt="Aceite_STIHL_GL">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/aceite gulf Gear EP 90 lt.png" alt="Aceite_STIHL_GL">
                                 <div class="info_card">
                                     <p>
                                         <h4>Aceite GearEP-90 LT</h4>
@@ -201,12 +183,13 @@
                                             <p class="Disponible-agotado">Disponible</p>
                                         </div> -->
                                         <!-- </div>
-                                    <div class="descripcion-">
-                                        <h3 class="Titulo_desc">Descripcion</h3>
-                                        <p class="parrafo-desc">Lorem ipsum dolor sit</p>
-                                    </div> -->
-                                        <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                            <div class="descripcion-">
+                                            <h3 class="Titulo_desc">Descripcion</h3>
+                                            <p class="parrafo-desc">Lorem ipsum dolor sit</p>
+                                        </div> -->
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +198,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Paleta_chanul_grande.png" alt="Paleta de chanul Grande">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/Paleta_chanul_grande.png" alt="Paleta de chanul Grande">
                                 <div class="info_card">
                                     <p>
                                         <h4>Paleta de Chanul Grande</h4>
@@ -230,11 +214,12 @@
                                             <p class="Disponible-agotado">Disponible</p>
                                         </div> -->
                                     </div>
-                                    <div class="descripcion-">
+                                    <!-- <div class="descripcion-">
                                         <h3 class="Titulo_desc">Descripción</h3>
                                         <p class="parrafo-desc">Proceso de secado al horno.</p>
-                                    </div>
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                    </div> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -244,7 +229,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/paleta_chanul_pequeña.png" alt="Paleta de chanul pequeña">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/paleta_chanul_pequeña.png" alt="Paleta de chanul pequeña">
                                 <div class="info_card">
                                     <p>
                                         <h4>Paleta de Chanul Pequeña</h4>
@@ -263,7 +249,8 @@
                                         <h3 class="Titulo_desc">Descripción</h3>
                                         <p class="parrafo-desc">Proceso de secado al horno.</p>
                                     </div>
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -273,7 +260,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Plomada.png" alt="Paleta de chanul pequeña">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Plomada.png"
+                                    alt="Paleta de chanul pequeña">
                                 <div class="info_card">
                                     <p>
                                         <h4>Plomada</h4>
@@ -292,7 +280,8 @@
                                         <h3 class="Titulo_desc">Descripción</h3>
                                         <p class="parrafo-desc">Fabricación nacional.</p>
                                     </div>
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -302,7 +291,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Nilon_corte_STIHL_3.00.png" alt="Paleta de chanul pequeña">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/Nilon_corte_STIHL_3.00.png" alt="Paleta de chanul pequeña">
                                 <div class="info_card">
                                     <p>
                                         <h4>Nylon de corte 3.0mm</h4>
@@ -321,7 +311,8 @@
                                         <h3 class="Titulo_desc">Descripción</h3>
                                         <p class="parrafo-desc">Rollo de 168m.</p>
                                     </div>
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -331,7 +322,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Multimata_ZAP.png" alt="Paleta de chanul pequeña">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Multimata_ZAP.png"
+                                    alt="Paleta de chanul pequeña">
                                 <div class="info_card">
                                     <p>
                                         <h4>Mata Insectos ZAP!</h4>
@@ -346,11 +338,12 @@
                                             <p class="Disponible-agotado">Disponible</p>
                                         </div> -->
                                     </div>
-                                    <div class="descripcion-">
+                                    <!-- <div class="descripcion-">
                                         <h3 class="Titulo_desc">Descripción</h3>
                                         <p class="parrafo-desc">Para insectos rastreros y voladores.</p>
-                                    </div>
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                    </div> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -360,7 +353,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div id="card" class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Aceite STIHL Lt.png" alt="Aceite_STIHL_GL">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Aceite STIHL Lt.png"
+                                    alt="Aceite_STIHL_GL">
                                 <div class="info_card">
                                     <p>
                                         <h4>Aceite STIHL LT</h4>
@@ -379,7 +373,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al Pedido</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -391,7 +386,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Aceite STIHL pequeño.png" alt="Aceite_STIHL_GL">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/Aceite STIHL pequeño.png" alt="Aceite_STIHL_GL">
                                 <div class="info_card">
                                     <p>
                                         <h4>Aceite STIHL 1/2 LT</h4>
@@ -410,19 +406,20 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                 </li>
-
                 <li class="animals">
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Pistola_para_pintar.jpg" alt="Pistola para pintar BP">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Pistola_para_pintar.png"
+                                    alt="Pistola para pintar BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Pistola para pintar BP</h4>
@@ -441,7 +438,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -451,7 +449,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/destornillador_estrella.jpg" alt="Destornillador estrella BP">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/destornillador_estrella.png" alt="Destornillador estrella BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Destornillador Estrella 1/4 * 4 Imantado</h4>
@@ -470,7 +469,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -480,7 +480,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Estilete_BP.jpg" alt="Estilete 18mm BP">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Estilete_BP.png"
+                                    alt="Estilete 18mm BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Estilete 18mm BP</h4>
@@ -499,7 +500,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -509,7 +511,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Pistola de Silicon 40W.png" alt="Pistola de silicon 40W">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/Pistola de Silicon 40W.png" alt="Pistola de silicon 40W">
                                 <div class="info_card">
                                     <p>
                                         <h4>Pistola de Silicon 40W</h4>
@@ -528,7 +531,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -538,7 +542,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/regulador_glp_BP.jpg" alt="Regulador pra GLP">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/regulador_glp_BP.png"
+                                    alt="Regulador pra GLP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Regulador para GLP </h4>
@@ -557,7 +562,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Uso domestico.</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -567,7 +573,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/regulador_glp_Industrial_BP.jpg" alt="regulador_glp_Industrial_BP">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/regulador_glp_Industrial_BP.png" alt="regulador_glp_Industrial_BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Regulador para GLP Industrial</h4>
@@ -586,7 +593,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -596,10 +604,11 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/Regulador_para_GLP_Industrial_BP.jpeg" alt="regulador_glp_Industrial_BP">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/Regulador_para_GLP_Industrial_BP.png" alt="regulador_glp_Industrial_BP">
                                 <div class="info_card">
                                     <p>
-                                        <h4>Regulador GLP Industrial 0-10</h4>
+                                        <h4>Regulador GLP Industrial de 0-10</h4>
                                     </p>
                                     <div class="container_grid">
                                         <div class="contenedor_precio">
@@ -615,7 +624,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -625,7 +635,9 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/regulador_glp_Industrial_AtaqueRapido_BP.jpg" alt="regulador_glp_Industrial_AtaqueRapido_BP">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/regulador_glp_Industrial_AtaqueRapido_BP.png"
+                                    alt="regulador_glp_Industrial_AtaqueRapido_BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Regulador GLP Industrial de Ataque Rápido</h4>
@@ -644,16 +656,19 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </li>
                 <li class="animals">
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/bornes_bateria.jpg" alt="Bornes para bateria">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/bornes_bateria.png"
+                                    alt="Bornes para bateria">
                                 <div class="info_card">
                                     <p>
                                         <h4>Bornes para Bateria</h4>
@@ -672,7 +687,8 @@
                                         <h3 class="Titulo_desc">Descripcion</h3>
                                         <p class="parrafo-desc">Lorem ipsum dolor sit</p>
                                     </div> -->
-                                    <!-- <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a> -->
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -682,135 +698,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/tornillo_milimetrico_recortable_2.jpg" alt="Tornillos milimetricos recortables">
-                                <div class="info_card">
-                                    <p>
-                                        <h4>Tornillos milimétricos</h4>
-                                    </p>
-                                    <div class="container_grid">
-                                        <div class="contenedor_precio">
-                                            <!-- <p class="texto_precio">Precio</p>
-                                            <p class="precio"><span>$3.40</span></p> -->
-                                        </div>
-                                    </div>
-                                    <div class="descripcion-">
-                                        <h3 class="Titulo_desc">Medidas: </h3>
-                                        <div class=" des_cuadro ">
-                                            <div class=" cont_1 ">
-                                                <p class=" parrafo-desc ">M4 * 15 (100 Und)</p>
-                                            </div>
-                                            <div class=" cont_1_1 ">
-                                                <p class=" parrafo-desc ">$ 1,50 </p>
-                                            </div>
-
-                                            <div class="cont_2">
-                                                <p class="parrafo-desc">M4 * 20 (100 Und)</p>
-                                            </div>
-                                            <div class=" cont_2_2 ">
-                                                <p class=" parrafo-desc ">$ 1,60 </p>
-                                            </div>
-
-                                            <div class="cont_3">
-                                                <p class="parrafo-desc">M4 * 25 (100 Und)</p>
-                                            </div>
-                                            <div class=" cont_3_3">
-                                                <p class=" parrafo-desc ">$ 1,70</p>
-                                            </div>
-
-                                            <div class="cont_4">
-                                                <p class="parrafo-desc"></p>
-                                            </div>
-                                            <div class=" cont_4_4">
-                                                <p class=" parrafo-desc "></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="animals">
-                    <div class="container_img product-item card">
-                        <div class="four columns13">
-                            <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/tirafondo.jpg" alt="tirafondos de 5/16">
-                                <div class=" info_card ">
-                                    <p>
-                                        <h4>Tirafondos</h4>
-                                    </p>
-                                    <div class=" container_grid ">
-                                        <div class=" contenedor_precio ">
-                                            <!--<p class=" texto_precio ">Precio</p>
-                                            <p class=" precio "><span>$3.40</span></p>-->
-                                        </div>
-                                    </div>
-                                    <div class=" descripcion- ">
-                                        <h3 class=" Titulo_desc ">Medidas: </h3>
-                                        <div class=" des_cuadro ">
-                                            <div class=" cont_1 ">
-                                                <p class=" parrafo-desc ">5/16 x 3 (100 Und)</p>
-                                            </div>
-                                            <div class=" cont_1_1 ">
-                                                <p class=" parrafo-desc ">$ 4,00 </p>
-                                            </div>
-
-                                            <div class="cont_2">
-                                                <p class="parrafo-desc">5/16 x 3 1/2 (100 Und)</p>
-                                            </div>
-                                            <div class=" cont_2_2 ">
-                                                <p class=" parrafo-desc ">$ 5,00 </p>
-                                            </div>
-
-                                            <div class="cont_3">
-                                                <p class="parrafo-desc">5/16 x 4 (100 Und)</p>
-                                            </div>
-                                            <div class=" cont_3_3">
-                                                <p class=" parrafo-desc ">$ 5,00 </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="animals">
-                    <div class="container_img product-item card">
-                        <div class="four columns13">
-                            <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/cancamo_recto_dorado.jpg" alt="Cancamo Dorado Recto">
-                                <div class=" info_card ">
-                                    <p>
-                                        <h4>Cáncamo Recto Dorado</h4>
-                                    </p>
-                                    <div class=" container_grid ">
-                                        <div class=" contenedor_precio ">
-                                            <!--<p class=" texto_precio ">Precio</p>
-                                            <p class=" precio "><span>$3.40</span></p>-->
-                                        </div>
-                                    </div>
-                                    <div class=" descripcion- ">
-                                        <h3 class=" Titulo_desc ">Medidas: </h3>
-                                        <div class=" des_cuadro ">
-                                            <div class=" cont_1 ">
-                                                <p class=" parrafo-desc ">25mm (100 Und) </p>
-                                            </div>
-                                            <div class=" cont_1_1 ">
-                                                <p class=" parrafo-desc ">$ 2,50 </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>               
-                </li>
-                <li class="animals">
-                    <div class="container_img product-item card">
-                        <div class="four columns13">
-                            <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/PINZA_PORTA_ELECTRODO_BP.png" alt="piza porta Electrodo BP">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/PINZA_PORTA_ELECTRODO_BP.png" alt="piza porta Electrodo BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Pinza Porta Electrodo 600Amp</h4>
@@ -821,6 +710,8 @@
                                             <p class="precio"><span>$3,20</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -830,7 +721,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/pinza_para_tierra_BP.jpg" alt="pinza_para_tierra_BP">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/pinza_para_tierra_BP.png" alt="pinza_para_tierra_BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Pinza para Tierra BP</h4>
@@ -841,6 +733,8 @@
                                             <p class="precio"><span>$3,20</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -850,7 +744,9 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/cables_pasa_corriente_200A.png" alt="regulador_glp_Industrial_AtaqueRapido_BP">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/cables_pasa_corriente_200A.png"
+                                    alt="regulador_glp_Industrial_AtaqueRapido_BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Cables pasa Corriente 200A</h4>
@@ -861,6 +757,8 @@
                                             <p class="precio"><span>$3,90</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -870,7 +768,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/lámpara_de_emergencia_BP.png" alt="lámpara_de_emergencia_BP">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/lámpara_de_emergencia_BP.png" alt="lámpara_de_emergencia_BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Lámpara para Mecánico BP</h4>
@@ -881,6 +780,8 @@
                                             <p class="precio"><span>$5,40</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -890,7 +791,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/soplete_BP.png" alt="Soplete BP">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/soplete_BP.png"
+                                    alt="Soplete BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Soplete de cobre</h4>
@@ -901,6 +803,8 @@
                                             <p class="precio"><span>$3,50</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -910,7 +814,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width" src="./img/barra_mezcladora_pintura_BP.png" alt="barra_mezcladora_pintura_BP">
+                                <img class="img_styles imagen-platillo u-full-width"
+                                    src="./img/barra_mezcladora_pintura_BP.png" alt="barra_mezcladora_pintura_BP">
                                 <div class="info_card">
                                     <p>
                                         <h4>Barra Mezcladora de Pintura</h4>
@@ -921,6 +826,8 @@
                                             <p class="precio"><span>$3,80</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -942,6 +849,8 @@
                                             <p class="precio"><span>$9,70</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -963,6 +872,8 @@
                                             <p class="precio"><span>$3,80</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -984,6 +895,8 @@
                                             <p class="precio"><span>$1,45</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1005,6 +918,8 @@
                                             <p class="precio"><span>$0,40</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1026,6 +941,8 @@
                                             <p class="precio"><span>$10,20</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1047,6 +964,8 @@
                                             <p class="precio"><span>$0,45</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1068,12 +987,14 @@
                                             <p class="precio"><span>$0,85</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </li>
-<li class="animals">
+                <li class="animals">
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
@@ -1089,6 +1010,8 @@
                                             <p class="precio"><span>$-,--</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1098,8 +1021,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width"
-                                    src="./img/enchufe_plano.png" alt="Enchufe Plano">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/enchufe_plano.png"
+                                    alt="Enchufe Plano">
                                 <div class="info_card">
                                     <p>
                                         <h4>Enchufe Plano</h4>
@@ -1110,6 +1033,8 @@
                                             <p class="precio"><span>$0,20</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1119,8 +1044,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width"
-                                    src="./img/enchufe_blind_2p.png" alt="Enchufe BLindado 2P">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/enchufe_blind_2p.png"
+                                    alt="Enchufe BLindado 2P">
                                 <div class="info_card">
                                     <p>
                                         <h4>Enchufe Blindado 2P</h4>
@@ -1131,6 +1056,8 @@
                                             <p class="precio"><span>$0,48</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1140,8 +1067,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width"
-                                    src="./img/enchufe_blind_3p.png" alt="Enchufe BLindado 3P">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/enchufe_blind_3p.png"
+                                    alt="Enchufe BLindado 3P">
                                 <div class="info_card">
                                     <p>
                                         <h4>Enchufe Blindado 3P</h4>
@@ -1152,6 +1079,8 @@
                                             <p class="precio"><span>$0,55</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1161,18 +1090,18 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width"
-                                    src="./img/alicate_6.png" alt="Alicate 6 pulgadas">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/alicate_6.png"
+                                    alt="Alicate 6 pulgadas">
                                 <div class="info_card">
                                     <p>
-                                        <h4>Alicate</h4>
+                                        <h4>Alicate 6"</h4>
                                     </p>
                                     <div class="container_grid">
-                                        <!-- <div class="contenedor_precio">
+                                        <div class="contenedor_precio">
                                             <p class="texto_precio">Precio</p>
-                                            <p class="precio"><span></span></p>
-                                        </div> -->
-                                        <div class=" descripcion- ">
+                                            <p class="precio"><span>$ 2,50</span></p>
+                                        </div>
+                                        <!-- <div class=" descripcion- ">
                                             <h3 class=" Titulo_desc ">Medidas: </h3>
                                             <div class=" des_cuadro ">
                                                 <div class=" cont_1 ">
@@ -1189,8 +1118,10 @@
                                                     <p class=" parrafo-desc ">$ 3,25 </p>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1200,8 +1131,49 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width"
-                                    src="./img/embase_litro.png" alt="Embase Plastico Litro">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/alicate_6.png"
+                                    alt="Alicate 6 pulgadas">
+                                <div class="info_card">
+                                    <p>
+                                        <h4>Alicate 8"</h4>
+                                    </p>
+                                    <div class="container_grid">
+                                        <div class="contenedor_precio">
+                                            <p class="texto_precio">Precio</p>
+                                            <p class="precio"><span>$ 3,25</span></p>
+                                        </div>
+                                        <!-- <div class=" descripcion- ">
+                                            <h3 class=" Titulo_desc ">Medidas: </h3>
+                                            <div class=" des_cuadro ">
+                                                <div class=" cont_1 ">
+                                                    <p class=" parrafo-desc ">alicate 6"</p>
+                                                </div>
+                                                <div class=" cont_1_1 ">
+                                                    <p class=" parrafo-desc ">$ 2,50 </p>
+                                                </div>
+                                                           
+                                                <div class="cont_2">
+                                                    <p class="parrafo-desc">Alicate 8" </p>
+                                                </div>
+                                                <div class=" cont_2_2 ">
+                                                    <p class=" parrafo-desc ">$ 3,25 </p>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="animals">
+                    <div class="container_img product-item card">
+                        <div class="four columns13">
+                            <div class="card">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/embase_litro.png"
+                                    alt="Embase Plastico Litro">
                                 <div class="info_card">
                                     <p>
                                         <h4>Embase plastico litro</h4>
@@ -1212,6 +1184,8 @@
                                             <p class="precio"><span>$0,39</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1221,8 +1195,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width"
-                                    src="./img/multilub90.png" alt="Multilub 90+">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/multilub90.png"
+                                    alt="Multilub 90+">
                                 <div class="info_card">
                                     <p>
                                         <h4>Lubricante Multilub 90+</h4>
@@ -1233,6 +1207,8 @@
                                             <p class="precio"><span>$2,90</span></p>
                                         </div>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1242,8 +1218,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width"
-                                    src="./img/Sprays_metalicos.png" alt="Pintura Spray Colores Metalizados">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Sprays_metalicos.png"
+                                    alt="Pintura Spray Colores Metalizados">
                                 <div class="info_card">
                                     <p>
                                         <h4>Pint. Spray Metalizados</h4>
@@ -1272,6 +1248,8 @@
                                             </div>
                                         </div> -->
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
@@ -1281,8 +1259,8 @@
                     <div class="container_img product-item card">
                         <div class="four columns13">
                             <div class="card">
-                                <img class="img_styles imagen-platillo u-full-width"
-                                    src="./img/Sprays_pint.png" alt="Pintura Spray Colores Normales">
+                                <img class="img_styles imagen-platillo u-full-width" src="./img/Sprays_pint.png"
+                                    alt="Pintura Spray Colores Normales">
                                 <div class="info_card">
                                     <p>
                                         <h4>Pintura Spray</h4>
@@ -1294,16 +1272,19 @@
                                         </div>
                                     </div>
                                     <div class="descripcion-">
-                                        <h3 class="Titulo_desc">Descripcion</h3>
+                                        <!-- <h3 class="Titulo_desc">Descripcion</h3> -->
                                         <p class="parrafo-desc">Pintura spray varios colores</p>
                                     </div>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                        data-id="1">Agregar al Pedido</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </li>
+
             </ol>
-            </div>
+        </div>
 
     </section>
 
@@ -1333,16 +1314,44 @@
                 </div>
 
                 <div class="box">
-                    <h2 class="owo">R.U.C</h2>
+                    <h2 class="owo">R.U.C/Cedula</h2>
                     <input type="text" name="" id="RUC" placeholder="RUC" autocomplete="off">
                 </div>
 
             </div>
-            <div class="box">
-                <h2 class="uwu">Pedido</h2>
-                <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Ingrese su pedido"></textarea>
-            </div>
+            <div class="boton-carrito">
+                <header class="header">
+                    <div class="container12">
+                        <div class="row">
+                            <div class="two columns13">
+                                <ul>
+                                    <div class="carrito-boton">
+                                        <p class="texto-pedido">Pedido </p>
+                                        <li class="submenu">
+                                            <div id="carrito">
+                                                <table id="lista-carrito" class="u-full-width">
+                                                    <thead>
+                                                        <tr>
+                                                            <th></th>
+                                                            <th>Producto</th>
+                                                            <th>Precio</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
 
+                                                    </tbody>
+                                                </table>
+                                                <a href="#" id="vaciar-carrito"
+                                                    class="button margin-center u-full-width">vaciar carrito</a>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
         </div>
         <div class="box">
             <button id="send">Enviar</button>
@@ -1368,7 +1377,7 @@
     <script src="/static/js/2.ccba4e8b.chunk.js"></script>
     <script src="/static/js/main.fb81a97b.chunk.js"></script>
 
-<!-- Paginación de los productos -->
+    <!-- Paginación de los productos -->
 
     <script src="./js/pagincacion.js"></script>
 </body>
